@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 48px auto;
+    padding: 0 2%;
+    text-align: center;
+}
+
+.input-box {
+    width: 100%;
+    padding: 16px 2%;
+    text-align: left;
+}
+
+.my-24 { margin: 24px 0; }
+
+.my-16 { margin: 16px 0; }
+
+.p-res-18 { padding: 16px 2%; }
+
+.py-8 { padding: 8px 0; }
+
+@media (max-width: 768px) {
+    .container { max-width: 668px; }
+}

@@ -1,0 +1,27 @@
+*{ box-sizing: border-box; }
+
+body, html {
+    background-color: var(--color-black);
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+input { border: 0; }
+button, input[type='submit'] {
+    border: 0;
+    cursor: pointer;
+}
+
+h1, h2, h3, p, a {  color: var(--color-white-smoke); }
+
+a { text-decoration: none; }
+
+textarea { resize: none; }
+
+@media (max-width: 768px) {
+    :root { font-size: 14px; }
+}
+
+@media (max-width: 468px) {
+    :root { font-size: 12px; }
+}

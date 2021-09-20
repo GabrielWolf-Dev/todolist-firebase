@@ -1,0 +1,11 @@
+.login--disable {
+    display: none;
+}
+
+.todo--active, .msg-error--active, .msg-check--active {
+    display: block;
+}
+
+.input--error { border: 2px solid var(--color-red); }
+
+.input--check { border: 2px solid var(--color-green); }

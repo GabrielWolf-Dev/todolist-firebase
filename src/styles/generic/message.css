@@ -1,0 +1,20 @@
+.msg-error {
+    width: 100%;
+    border-radius: 12px;
+    background-color: var(--color-red);
+    color: var(--color-white-smoke);
+    font-size: 1rem;
+    display: none;
+    padding: 8px 2%;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.msg-check {
+    width: 100%;
+    border-radius: 12px;
+    background-color: var(--color-green);
+    color: var(--color-white-smoke);
+    font-size: 1rem;
+    display: none;
+}

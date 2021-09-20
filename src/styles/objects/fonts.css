@@ -1,0 +1,22 @@
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.text {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.text-small {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+/*-- Colors Fonts --*/
+.text-red { color: var(--color-red); }
