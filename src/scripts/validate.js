@@ -29,7 +29,7 @@ function checkPass(passValue, passInput) {
 };
 
 function checkTextTodo(textValue, textInput) {
-    const regExpPass = /^(\w+[-]?\s?)+$/;
+    const regExpPass = /^(\w+[-çãí]*\s*)+$/;
 
     if(!regExpPass.test(textValue)){
         alert("Não é possível colocar caracteres especiais, somente (_ e -)");
