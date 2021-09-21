@@ -1,12 +1,12 @@
 .msg-error {
-    width: 100%;
+    width: 80%;
     border-radius: 12px;
     background-color: var(--color-red);
     color: var(--color-white-smoke);
     font-size: 1rem;
     display: none;
     padding: 8px 2%;
-    margin-top: 4px;
+    margin: 0 auto 16px auto;
     text-align: center;
 }
 

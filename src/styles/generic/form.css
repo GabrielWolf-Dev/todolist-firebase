@@ -1,4 +1,6 @@
-.login__form {
+.register { display: none; }
+
+.form {
     width: 100%;
     max-width: calc(1280px / 2);
     border-radius: 12px;
@@ -6,12 +8,12 @@
     margin: auto;
 }
 
-.login__input-label {
+.form__input-label {
     color: var(--color-white-smoke);
     padding-left: 6px;
 }
 
-.login__input {
+.form__input {
     width: 100%;
     height: 42px;
     padding-left: 16px;
@@ -20,9 +22,9 @@
     margin: 8px 0;
 }
 
-.login__submit {
+.form__submit, .form__registerBtn, .form__loginBtn {
     width: 100%;
-    max-width: 180px;
+    max-width: 140px;
     height: 42px;
     border-radius: 12px;
     background-color: var(--color-blue);
@@ -30,8 +32,8 @@
     transition: all ease-in .3s;
 }
 
-.login__submit:hover { opacity: 0.8; }
+.form__submit:hover, .form__registerBtn:hover, .form__loginBtn:hover { opacity: 0.8; }
 
 @media (max-width: 468px) {
-    .login__submit { max-width: 120px; }
+    .form__submit, .form__registerBtn, .form__loginBtn { max-width: 120px; }
 }

@@ -1,10 +1,6 @@
-.login--disable {
-    display: none;
-}
+.login--disable { display: none; }
 
-.todo--active, .msg-error--active, .msg-check--active {
-    display: block;
-}
+.todo--active, .msg-error--active, .msg-check--active, .register--active { display: block; }
 
 .input--error { border: 2px solid var(--color-red); }
 

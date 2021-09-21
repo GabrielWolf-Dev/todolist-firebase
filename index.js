@@ -7,6 +7,7 @@ import './src/styles/generic/base.css';
 import './src/styles/settings/colors.css';
 import './src/styles/utilities/componentsActives.css';
 import './src/styles/objects/fonts.css';
+import Register from './src/components/Register';
 
 configFirebase();
 
@@ -16,4 +17,5 @@ let user = null;
 root.insertAdjacentHTML('beforeend', `
     ${LoginPage(user)}
     ${Todo()}
+    ${Register()}
 `);
