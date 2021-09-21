@@ -20,4 +20,4 @@ I learned the login authentication with e-mail and password, adding new datas fo
   * FireStore Database 
 
 ## Demonstration:
-![Gif Project](https://github.com/GabrielWolf-Dev/Pokedex_Project/blob/main/todolist-firebase/src/assets/todolist-gif.gif)
+![Gif Project](https://github.com/GabrielWolf-Dev/todolist-firebase/blob/main/src/assets/todolist-gif.gif)
