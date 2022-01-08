@@ -63,7 +63,6 @@ export default function LoginPage(user){
         
         if(dataUser){
             user = dataUser;
-            alert('Olá novamente ' +  user.email);
             Todo(user);
             showTodoPage();
         }
