@@ -32,8 +32,14 @@
     transition: all ease-in .3s;
 }
 
+.form > .form__submit { margin-right: 16px; }
+
 .form__submit:hover, .form__registerBtn:hover, .form__loginBtn:hover { opacity: 0.8; }
 
 @media (max-width: 468px) {
     .form__submit, .form__registerBtn, .form__loginBtn { max-width: 120px; }
+
+    .form > .form__registerBtn, .form > .form__loginBtn { margin-bottom: 16px; }
+
+    .form > .form__submit { margin-right: 0; }
 }

@@ -14,7 +14,7 @@ function checkEmail(emailValue, emailInput){
 }
 
 function checkPass(passValue, passInput) {
-    const regExpPass = /^[#?!@$%^&*-A-Za-z\d]{8,}$/;
+    const regExpPass = /^[#?!@$%^&*A-Za-z\d]{8,}$/;
     const msgErrorDiv = passInput.closest(".input-box").children[2];
 
     if(!regExpPass.test(passValue)){
